@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Using diff was helpful because I was able to filter what was relevent to helping me find that answer and that was the lines marked with '-'.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It can be used as a learning tool an undo button. If I introduce a bug in my code I can rollback to previous version and fix bug.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Pros:
+-You save what you want to save
+-Don't have to worry about compile errors if feature implementation is incomplete.
+-Commit comments will not be crowded - using diff when be more effcient
+
+Cons:
+-Computer crashes=lose code
+-Easy to forget to continuously commit
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Version control systems are mostly used for applications whose features are sepearate by function and features and features. Often these features and fuctions have seperate files so that could be a reason why VCS used allow mutliple files during commits.
+
+How can you use the commands git log and git diff to view the history of files?
+Use command 'git log' to see commit history and use 'git diff' to compare previous versions to find out what was added to deleted. 'git diff' can also be used to debug issues.
+
+How might using version control make you more confident to make changes that could break something?
+Version control is a very useful tool to help developers learn from their mistakes. With VC developers can be extremely confident that a commit will not permanently affect the application because the previous state cna always be retrieved. Although checking in bad code is not never good, developers can always be ensure that a introducing a bug is not permanent.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to build a Git portfolio to promote myself within the programming communitys

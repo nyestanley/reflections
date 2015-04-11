@@ -12,4 +12,13 @@ What are some situations when branches would be helpful in keeping your history 
 Branches are helpful when you need want to experiment with the code base but do not want to add those experimental changes to the master. Also, branches are useful if you are planning to introduce new features to the application and want to work with a seperate code base before publishing that feature.
 
 How do the diagrams help you visualize the branch structure?
-Helps keep track of which brances has which commits.
+Helps keep track of which branches has which commits and what commit may get lost if commits are made in detached head state
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When two branches are merge the together, branch specified in the git command is merged with the current branch.
+The commits of the branch are added to the commit history of the merged branch.
+We represent brances in a commit diagram to visualize with commits will be reachable after a merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git automatic merging pros: fast and recursive, cons: if merging 2 lines that were both changed automatic merging will abort.
+Manual merge pros: Can comb through which changes should be added to commit, cons: can take alot of time

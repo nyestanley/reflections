@@ -9,3 +9,6 @@ The benefit of tracking the last known stats of the remote is so that that local
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 If Git and GitHiub were not available to me I would use some other form of version-control. It would still be easy to track changes and work off different branches but it will become more cumbersome during code-reviews.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When it comes to collaboration and working within an team I think that all changes should be implemented and tested on branch oppose to the master, so that someone can review my work and possibly detect bugs before merging. Using branches exclusively for changes compartmentalizes code changes making it easier to maintain. However, just using the branch eliminate the sometimes tedious workflow of pull requests.

@@ -6,3 +6,6 @@ When working a branch that will be a feature or extension of the main code base 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit of tracking the last known stats of the remote is so that that local commits are tracked and managed easier and debugging is easier also.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+If Git and GitHiub were not available to me I would use some other form of version-control. It would still be easy to track changes and work off different branches but it will become more cumbersome during code-reviews.
